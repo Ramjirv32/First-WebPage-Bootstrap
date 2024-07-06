@@ -1,0 +1,145 @@
+
+@media (max-width: 768px){
+    #on{
+       
+        margin-top: 200px !important;
+    }
+    #piza,#pizza{
+        visibility: hidden;
+    }
+    #icon{
+        position: relative;
+        top:4%;
+        left:-13%;
+        justify-content: center;
+        align-items: center;
+    }
+    #ra{
+        width: 30%;
+        height: 200px;
+        margin-left: -12%;
+    }
+    #piza{
+        left:-10%;
+    }
+    #back{
+        width:auto;
+        height: 300px;
+    }
+   #last{
+    margin-top: -20px !important;
+   }
+
+}
+
+@media (max-width: 992px){
+    #on{
+       
+        margin-top: 200px !important;
+        
+    }
+    #piza,#pizza{
+        visibility: hidden;
+    }
+    #icon{
+        position: relative;
+        top:4%;
+        left:-13%;
+     
+    }
+    #ra{
+        height: 300px;
+        width: 70%;
+    }
+    #last{
+        margin-left: 130px !important;
+    }
+ 
+    
+}
+
+body{
+    background: linear-gradient(to right, black, rgb(97, 93, 93)) !important; cursor: pointer;
+    margin: auto;
+    font-weight: bolder;
+}
+#ra{
+    height: 600px;
+    width: 100%;
+    opacity: 0.3;
+}
+#on{
+    margin-top: 100px !important;
+    color:white;
+    
+ 
+}
+#l{
+    width:180px;
+    color: white;
+    background: none;
+    outline: none;
+    border: 1px solid red;
+    margin-top: 13px;
+
+}
+#l:hover{
+        background: red;
+        color: white;
+       
+}
+
+
+#logolog{
+    margin-top: -16% !important;
+    margin-left: 40% !important;
+}
+#f{
+    background-color:transparent;
+    box-shadow: 1px 2px 4px 1px rgba(93,93,97);
+    height: 500px !important;
+    border-radius: 12px;
+    width:870px !important;
+    background: transparent;
+    margin-top: -600px;
+    z-index: 1;
+   
+    
+}
+#fp{
+    margin-left: 120px !important;
+    color:brown !important;
+}
+#r{
+    margin-top: 70px !important;
+    
+}
+#icon{
+    font-size: xx-large;
+    margin-left: 60px;
+}
+#piza{
+    position: absolute;
+    top:42%;
+    left: 20%;
+}
+#pizza{
+    position: absolute;
+    left:66%;
+    top:9%
+}
+#back{
+    width:100%;
+    height: 600px;
+    position: static;
+    opacity: 0.3;
+    z-index: -1;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px !important;
+}
+#acc{
+    margin-top: 20px;
+}

@@ -1,0 +1,258 @@
+html,body,header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: max-content;
+    width: 100%;
+   
+}
+
+.nav-link {
+    color: whitesmoke !important;
+    font-weight: 800;
+    outline: none;
+    border-radius: 12px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: rgba(135, 144, 135, 0.3);
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+#ques {
+    margin: 20px auto;
+}
+
+#logo {
+    margin-left: 40px !important;
+    font-size: x-large;
+}
+
+#log {
+    background: transparent;
+    border: 1px solid black;
+    position: relative;
+    margin-right: 20px;
+    width: 100px;
+    color: white;
+    overflow: hidden;
+}
+
+#log:hover {
+    background: green;
+    outline: none;
+}
+
+#logop {
+    margin-left: 40px;
+}
+
+#head {
+    margin-top: 80px;
+}
+
+.container-fluid {
+    margin-top: 100px;
+    font-size: 60px;
+}
+#more{
+    width:400px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 100px;
+    margin-left: -110%;
+   color: white;
+   font-size: large;
+   background: rgb(251, 137, 137);
+   border: none;
+   outline: none;
+}
+#wh{
+ 
+    font-size: x-large;
+    margin-top: -13%;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav .nav-link {
+        transition: color 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+    }
+
+    #log {
+        outline: none;
+        margin-right: 20px;
+    }
+    .row .col{
+        display: flex;
+    flex-direction: row;    }
+}
+
+#bu{
+    margin-left:-10%;
+}
+#imgt{
+    color: white !important;
+    margin-top: -45%;
+    font-size: xx-large;
+    margin-left: 2%;
+    font-weight: 1300;
+    font: bolder;
+}
+#first,#second, #third{
+    position: relative;
+    left: 4%;
+    margin-top: 200px;
+   
+    background: linear-gradient(to right, black, rgb(97, 93, 93));
+    border:none;
+    outline: none;
+    opacity: 0.5;
+
+}
+#img-1,#img-2,#img-3{
+    width:400px !important;
+    height: 200px !important;
+    position: relative;
+    left:30%;
+}
+#four,#five, #six{
+    position: relative;
+    left: 4%;
+    margin-top: 200px;
+   
+    background: linear-gradient(to right, black, rgb(97, 93, 93));
+    border:none;
+    outline: none;
+    opacity: 0.5;
+
+}
+#img-4,#img-5,#img-6{
+    width:400px !important;
+    height: 200px !important;
+    position: relative;
+    left:30%;
+}
+#down {
+    background: linear-gradient(to right, black, rgb(97, 93, 93));
+    width: 80%;
+    height: 600px;
+    margin-top: 200px;
+    border-radius: 12px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#i1, #i2 {
+    font-size: 80px;
+    width: 100px;
+}
+
+#i1 {
+    color: white;
+    margin-top: 50px;
+}
+
+#i2 {
+    color: rgb(47, 255, 120);
+    margin-top: 20px;
+}
+
+#now {
+    width: 400px;
+    height: 50px;
+    font-size: xx-large;
+    border-radius: 12px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 0.9px solid white;
+    margin-top: 50px;
+}
+
+#now:hover {
+    background-color: grey;
+    transition: 0.1s;
+}
+
+@media (max-width: 992px) {
+    #down {
+        width: 90%;
+        height: auto;
+        margin-top: 200px;
+        padding: 20px;
+    }
+
+    #i1, #i2 {
+        font-size: 60px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #i1 {
+        margin-top: 30px;
+    }
+
+    #i2 {
+        margin-top: 20px;
+    }
+
+    #now {
+        width: 100%;
+        font-size: large;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #down {
+        width: 95%;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: large;
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: medium;
+        margin: 0;
+    }
+
+    #i1, #i2 {
+        font-size: 40px;
+        margin: 20px auto;
+    }
+
+    #now {
+        width: 100%;
+        font-size: medium;
+        margin-top: 20px;
+    }
+}
+#r{
+    background: black;
+    font-size: small;
+    margin-top: 300px;
+}
+#limg{
+    margin-left: 660px !important;
+    margin-top: -7%;
+    height: 450px;
+    width: 300px;
+
+}
